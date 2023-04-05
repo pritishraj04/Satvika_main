@@ -88,8 +88,6 @@ a:hover {
 .container {
   max-width: 1280px;
 }
-
-/* FORM ELEMENTS */
 input[type=text] {
   width: 100%;
   height: 54px;
@@ -110,10 +108,49 @@ button[type=submit] {
   background: #9f8054;
   color: #fff;
   padding: 0 30px;
+  
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
 }
+.parent{
+  padding-left: 6em;
+  padding-bottom: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+}
+
+.mango{
+  width: 90%;
+  border: 0.1px solid #D3D3D3;
+  display: flex;
+  padding: 1em;
+  color: #9f8054;
+  border-radius: 1em;
+  min-width: 470px;
+  justify-content: center;
+  align-items: center;
+}
+.mango2{
+  width: 90%;
+  border: 0.1px solid #D3D3D3;
+  display: flex;
+  padding: 1em;
+  border-radius: 1em;
+  min-width: 470px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* FORM ELEMENTS */
+
+
+
+
+
 
 /* ODOMETER */
 .odometer {
@@ -2610,10 +2647,44 @@ button[type=submit] {
 /* CONTACT */
 .contact {
   width: 100%;
-  display: flex;
+  display: block;
   flex-wrap: wrap;
-  padding: 150px 0;
+  padding-top: 4em;
+
+  
 }
+.pattern-bg{
+  padding-top: 1em;
+}
+
+#contact{
+  flex-direction: row-reverse;
+  
+  
+}
+@media only screen and (max-width: 767px){
+  .parent{
+    padding-left: 1em;
+
+  }
+  #contact{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-self: center;
+    
+  } 
+  .contact2{
+    padding-left: 2em;
+    
+  }
+  .parent{
+    flex-direction: column;
+    padding-bottom: 2;
+  }
+
+
+}
+
 .contact b {
   display: block;
   font-size: 30px;
@@ -2662,45 +2733,44 @@ button[type=submit] {
 .contact .map {
   display: inline-block;
   margin-bottom: 0;
-  margin-top: 100px;
-  background: #ebcfa7;
   position: relative;
 }
-.contact .map:before {
-  content: "";
-  width: 50vw;
-  height: 100%;
-  background: #ebcfa7;
-  position: absolute;
-  left: -50vw;
-  top: 0;
-}
-.contact .map .pattern-bg {
-  width: 120%;
-  height: 100%;
-  position: absolute;
-  left: 5%;
-  top: -5%;
-  background: url(../images/side-pattern-bg.png);
-  background-size: contain;
-}
+
+
 .contact .map .holder {
   position: relative;
   width: 100%;
   float: left;
   display: block !important;
-  transform: translate(85px, -35px);
+  
 }
 .contact .map .holder iframe {
   box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
   width: 525px;
   height: 657px;
   border: none;
+  
+}
+.contact{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.align-items-center{
+  display: flex;
+
 }
 .contact .contact-form {
+  
+  margin: 0 auto;
+  padding: 2em;
   width: 100%;
   display: block;
-  padding-left: 10%;
+  border-radius: 0.6em;
+  border:0.06px solid #D3D3D3;
 }
 .contact .contact-form h5 {
   margin-bottom: 40px;
@@ -2709,9 +2779,10 @@ button[type=submit] {
   display: block;
 }
 .contact .contact-form #contact .form-group {
+  
   display: block;
   position: relative;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 .contact .contact-form #contact .form-group span {
   width: 100%;
@@ -2733,23 +2804,31 @@ button[type=submit] {
   background: none;
   position: relative;
   z-index: 2;
+  border-color: #9f8054;
+  opacity: 0.3;
+  border-radius: 0.3em;
 }
 .contact .contact-form #contact .form-group input:focus + span {
   font-size: 13px;
   line-height: 16px;
   top: -20px;
   font-weight: 600;
+  
 }
 .contact .contact-form #contact .form-group textarea {
   background: none;
   position: relative;
   z-index: 2;
+  border-color: #9f8054;
+  opacity: 0.3;
+  border-radius: 0.3em;
 }
 .contact .contact-form #contact .form-group textarea:focus + span {
   font-size: 13px;
   line-height: 16px;
   top: -20px;
   font-weight: 600;
+ 
 }
 .contact .contact-form #contact .form-group label.error {
   color: red;

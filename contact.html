@@ -74,6 +74,8 @@
     <link rel="stylesheet" href="css/swiper.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.scss" />
+
   </head>
   <body>
     <div class="preloader">
@@ -253,7 +255,7 @@
       <div class="container">
         <h1>Contact</h1>
         <p>
-          The smaller male cones release pollen, which fertilizes the female
+          Get in touch with - SATVIKA Group.
         </p>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="#">Start</a></li>
@@ -267,17 +269,17 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 wow fadeInUp">
-            <b>07</b>
-            <h4><span>Satvika</span> Living Spaces</h4>
-            <small>Smaller male cones </small>
+            <h4><span>Questions?</span></h4>
+            <small style="text-transform: lowercase; width: 75%;justify-content: center;">It usually takes us 12-16hrs to respond. Please be patience. Connect us on <font style="color: green;">WhatsApp : +91 90451 87480</font>
+            </small>
           </div>
           <!-- end col-6 -->
           <div class="col-lg-3 col-md-6 wow fadeInUp">
             <address>
               <strong>Visit Us</strong>
               <p>
-                Kristiatik 15th Street, Floot 17<br />
-                Kiev, Ukraine 78692
+                Address Line Address Line<br />
+                AddressLine, India 800020
               </p>
             </address>
           </div>
@@ -285,31 +287,40 @@
           <div class="col-lg-3 col-md-6 wow fadeInUp">
             <address>
               <strong>Say Hello</strong>
-              <p><a href="#">mail@satvikagroup.in</a> (+91) - 87095 95001</p>
+              <p><a href="#">mail@satvikagroup.in</a> ,+91 90451 87480</p>
             </address>
           </div>
           <!-- end col-3 -->
         </div>
         <!-- end row -->
-        <div class="row align-items-center">
+        <div class="row align-items-center" id="contact" style="padding-bottom:2em ;width: 100%;">
+          
           <div class="col-lg-6">
+           
             <div class="map">
-              <div class="pattern-bg" data-stellar-ratio="1.03"></div>
+              
+              
               <!-- end pattern-bg -->
-              <div class="holder" data-stellar-ratio="1.07">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.2378765886474!2d-73.97644805915624!3d40.69075842971381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bb6c6fe52c7%3A0x2b3bb16e97b13c01!2sFort+Greene+Tennis+Courts!5e0!3m2!1sen!2str!4v1559831164025!5m2!1sen!2str"
-                  allowfullscreen
-                ></iframe>
+              <div>
+                <div class="holder" style="padding: 2em; border: 0.2px solid #D3D3D3
+                ; border-radius: 0.5em; color: #9f8054;" ><h3>Open in Maps</h3>
+                <div style="font-size: small; padding-bottom: 3em; color: gray;"><u>Click here to see full map</u></div>
+                  <iframe class="mapframe" style="height: 400px;"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.2378765886474!2d-73.97644805915624!3d40.69075842971381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bb6c6fe52c7%3A0x2b3bb16e97b13c01!2sFort+Greene+Tennis+Courts!5e0!3m2!1sen!2str!4v1559831164025!5m2!1sen!2str"
+                    allowfullscreen
+                    
+                  ></iframe>
+                </div>
               </div>
+             
               <!-- end holder -->
             </div>
             <!-- end map -->
           </div>
           <!-- end col-6 -->
-          <div class="col-lg-6">
+          <div class="col-lg-6" >
             <div class="contact-form">
-              <form id="contact" name="contact" method="post">
+              <form id="contact" class="contact2" name="contact" method="post">
                 <div class="form-group">
                   <input
                     type="text"
@@ -321,27 +332,57 @@
                   <span>Your name</span>
                 </div>
                 <!-- end form-group -->
-                <div class="form-group">
-                  <input
+                <div style="display: flex;justify-content: space-around; width: 100%;">
+                  <div class="form-group" style="width: 49%;">
+                    <input
+                      type="text"
+                      name="email"
+                      id="email"
+                      autocomplete="off"
+                      required
+                      
+                    />
+                    <span>Your e-mail</span>
+  
+                  </div>
+                  <div class="form-group" style="width: 49%;">
+                    <input
                     type="text"
-                    name="email"
-                    id="email"
+                    name="contact"
+                    id="contact"
                     autocomplete="off"
                     required
                   />
-                  <span>Your e-mail</span>
+                  <span>Your contact</span>
+                  </div>
+
                 </div>
+                
                 <!-- end form-group -->
-                <div class="form-group">
-                  <input
+                <div style="display: flex;justify-content: space-around; width: 100%;">
+                  <div class="form-group" style="width: 49%;">
+                    <input
+                      type="text"
+                      name="text"
+                      id="project"
+                      autocomplete="off"
+                      required
+                      
+                    />
+                    <span>project</span>
+  
+                  </div>
+                  <div class="form-group" style="width: 49%;">
+                    <input
                     type="text"
-                    name="subject"
-                    id="subject"
+                    name="state"
+                    id="state"
                     autocomplete="off"
                     required
                   />
-                  <span>Subject</span>
-                </div>
+                  <span>Your state</span>
+                  </div>
+                  </div>
                 <!-- end form-group -->
                 <div class="form-group">
                   <textarea
@@ -353,9 +394,12 @@
                   <span>Your message</span>
                 </div>
                 <!-- end form-group -->
-                <div class="form-group">
-                  <button id="submit" type="submit" name="submit">
+                <div class="form-group" id="butgrp" style=" width:1%;display: flex; justify-content: space-between;min-width: 60%; ">
+                  <button id="submit"  type="submit"  name="submit" style="border-radius: 2em;">
                     Submit
+                  </button>
+                  <button id="submit" type="submit" name="submit" style="border-radius: 2em; background-color: white; color: #9f8054;border: 1px solid #9f8054;">
+                    Attach a File
                   </button>
                 </div>
                 <!-- end form-group -->
@@ -391,6 +435,31 @@
       </div>
       <!-- end container -->
     </section>
+    <div class="parent">
+      <div  >
+        <div class="mango" style="border-radius: 0.6em;">
+          <img src="images/whatsapp.png" width="20%" height="20%" style="padding-right: 1em;"/>
+          <div>
+            <div class="Request"><h4>Request A Call</h4></div>
+            <div class="text">it usually takes us 12-16hrs to respond. please be patience. connect us on <font style="color: green;">whatsapp : +91 90451 87480</font></div>
+          </div>
+        </div>
+
+
+      </div>
+      <div >
+        <div class="mango2" style="border-radius: 0.6em;">
+          <img src="images/whatsapp.png" width="20%" height="20%" style="padding-right: 1em;"/>
+          <div>
+            <div class="Request"><h4>Request A Call</h4></div>
+            <div class="text">it usually takes us 12-16hrs to respond. please be patience. connect us on <font style="color: green;">whatsapp : +91 90451 87480</font></div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
     <!-- end contact -->
     <section class="footer-bar">
       <div class="container">
@@ -398,24 +467,24 @@
           <div class="row">
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.05s">
               <figure>
-                <img src="images/footer-icon01.png" alt="Image" />
+                <img src="images/footer-icon02.png" alt="Image" />
               </figure>
-              <h3>Address Infos</h3>
+              <h3>Quick Links</h3>
               <p>
-                Kyiv | G. Stalingrada Avenue, 6 <br />
-                Vilnius | Antakalnio St. 17
+                <u>EMI Calculator</u> | <u>Downloads</u><br />
+                <u>Satvika Heights</u> | <u>About Us</u>
               </p>
             </div>
             <!-- end col-4 -->
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.10s">
               <figure>
-                <img src="images/footer-icon02.png" alt="Image" />
+                <img src="images/footer-icon01.png" alt="Image" />
               </figure>
-              <h3>Working Hours</h3>
+              <h3>Patna Office</h3>
               <p>
-                Monday to Friday <strong>09:00</strong> to
-                <strong>18:30</strong> <br />
-                Saturday we work until <strong>15:30</strong>
+                Address line Address line <br>
+                Address line - India
+                
               </p>
             </div>
             <!-- end col-4 -->
@@ -423,10 +492,10 @@
               <figure>
                 <img src="images/footer-icon03.png" alt="Image" />
               </figure>
-              <h3>Sales Office</h3>
+              <h3>Other Office</h3>
               <p>
-                Boryssa Himry 124 B Block Pozniaky<br />
-                Kiev Oblast - Ukraine
+                Address line Address line<br />
+                Address line - India
               </p>
             </div>
             <!-- end col-4 -->
@@ -459,13 +528,13 @@
                 aria-expanded="false"
               >
                 <span
-                  ><img src="images/flag-tr.svg" alt="Image" /> Turkish</span
+                  ><img src="images/flag-en.svg" alt="Image" /> English</span
                 >
               </a>
               <ul class="dropdown-menu" aria-labelledby="language-select">
                 <li>
                   <a class="dropdown-item" href="#"
-                    ><img src="images/flag-en.svg" alt="Image" /> English</a
+                    ><img src="images/flag-in.svg" alt="Image" /> Hindi</a
                   >
                 </li>
                 <li>
@@ -505,7 +574,7 @@
           <!-- end col-2 -->
           <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.20s">
             <div class="contact-box">
-              <h5>CALL CENTER</h5>
+              <h5>CALL US</h5>
               <h3>(+91) - 87095 95001</h3>
               <p><a href="#">mail@satvikagroup.in</a></p>
               <ul>
