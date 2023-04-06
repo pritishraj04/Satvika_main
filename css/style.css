@@ -7128,6 +7128,19 @@ opacity:1;
   
   }
 
-
-
+.logos1{
+  display: flex;
+  width: 100%;
+  padding: 2em;
+  padding-left: 6em;
+  padding-bottom:4em ;
+  align-items: center;
+}
+.companies{
+  width: 95%;
+  padding-top: 0.5em;
+  background-color: lightblue;
+  justify-content: center;
+  align-items: center;
+}
 
