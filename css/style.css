@@ -1458,7 +1458,7 @@ button[type=submit] {
   position: absolute;
   left: 5%;
   top: -5%;
-  background: url(../images/side-pattern-bg.png);
+  
   background-size: contain;
 }
 .property-calculator figure .holder {
