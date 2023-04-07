@@ -7193,3 +7193,14 @@ opacity:1;
     width: 100%;
   }
 }
+.allfixes{
+  display: flex;
+}
+@media screen and (max-width: 820px) {
+ 
+  .allfixes{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
