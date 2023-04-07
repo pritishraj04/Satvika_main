@@ -2659,7 +2659,7 @@ button[type=submit] {
   display: block;
   flex-wrap: wrap;
   padding-top: 4em;
-
+  
   
 }
 .pattern-bg{
@@ -2948,6 +2948,15 @@ button[type=submit] {
   .intro-video {
     padding: 80px 0;
   }
+  .contact{
+    width:75%;
+    min-width: 450px;
+    
+  }
+
+  .contact2{
+    padding-left: 2em;
+  }
   .faq .sidebox {
     width: 100%;
     margin-left: 0;
@@ -3103,6 +3112,12 @@ button[type=submit] {
 }
 /* RESPONSIVE MOBILE FIXES */
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+  .mango{
+    width: 50px;
+  }
+  .mango2{
+    width: 50px;
+  }
   .side-navigation {
     width: 80vw;
   }
@@ -6584,6 +6599,7 @@ button[type=submit] {
   .jspVerticalBar {
       top: 54%;
   }
+
 }
 
 .jspVerticalBar .jspArrow {
@@ -7203,4 +7219,9 @@ opacity:1;
     flex-direction: column;
   }
 }
-
+.satvikasites{
+  opacity: 0.6;
+}
+.satvikasites:hover{
+  opacity: 1;
+}
