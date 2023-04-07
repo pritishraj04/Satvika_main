@@ -6946,38 +6946,7 @@ input[type="time"]:valid:before {
   }
 
 
-  @media screen and (max-width: 1000px) {
-    .projects{
-      display:flex;
-      flex-direction: column;
-      margin-top: 0;
-    }
-    .project{
-margin:0.2em ;
-width:22rem;
-height:28rem;
-position: relative;
-    }
-    .filters {
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    .filter {
-      font-size: 0.8em;
-      margin: 0.5rem;
-    }
-    .main h1{
-      font-size: 1.2rem;
-   
-     }
-    .main p{
-     
-      font-size: 0.8rem;
-      
-      margin-bottom: 1rem;
-    }
-  
-  }
+
 
 
   .project {
@@ -7057,7 +7026,7 @@ position: relative;
     bottom: 100%;
     opacity: 1;
   }
-  button {
+  .overlay button {
     padding: 10px 20px;
     background-color: #ae9b59;
     color: #fff;
@@ -7069,7 +7038,7 @@ position: relative;
     letter-spacing: 0.1rem;
    
   }
-  button:hover{
+  .overlay button:hover{
   
     color:#ae9b59;
     background-color: #fff;
@@ -7114,12 +7083,12 @@ position: relative;
 bottom:100%;
 opacity:1;
     }
-    button{
+    .overlay button{
       width:100%;
       margin-top:25.25rem;
       border: none;
     }
-    button:hover{
+    .overlay button:hover{
       color:white;
       background-color:  #cfb96b;;
       border: none;
