@@ -1172,19 +1172,20 @@ button[type=submit] {
 }
 .intro figure .holder {
   position: relative;
-  width: 100%;
+  width: 0%;
   float: left;
   display: block !important;
   
 }
 .intro figure .holder img {
   box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
-  width: 625px;
+  width: 90%;
+  max-width: 90%;
   min-width: 400px;
 }
 .intro .content-box {
   display: block;
-  padding-left: 10%;
+  padding-left: 30%;
 }
 .intro .content-box b {
   display: block;
@@ -2689,7 +2690,15 @@ button[type=submit] {
     flex-direction: column;
     padding-bottom: 2;
   }
-
+  #mang{
+    display: none;
+  }
+  #man{
+    padding-top: 2em;
+  }
+  .content-box{
+    padding-top: 4em;
+  }
 
 }
 
@@ -2769,7 +2778,7 @@ button[type=submit] {
 
 .align-items-center{
   display: flex;
-
+  
 }
 .contact .contact-form {
   
@@ -2914,9 +2923,7 @@ button[type=submit] {
     transform: translate(0, -45px);
     padding: 0 15%;
   }
-  .intro figure .holder img {
-    width: 100%;
-  }
+
   .intro .content-box {
     padding-left: 0;
   }
@@ -6674,16 +6681,21 @@ input[type="time"]:valid:before {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 180px;
+  padding-top: 80px;
   padding-bottom: 30px;
   background: #26282b;
 }
 .footer p {
   color: #fff;
 }
+
+
+
+
 .footer .logo {
-  height: 41px;
-  margin-bottom: 15px;
+  height: 58px;
+  margin-bottom: 33px;
+  margin-top: -45px;
 }
 .footer .logo img {
   height: 48px;
@@ -6758,14 +6770,22 @@ input[type="time"]:valid:before {
 .footer .footer-menu li a {
   float: left;
   color: #fff;
+  text-decoration: none;
+  margin-top: 1px;
 }
-.footer .footer-menu li a:hover {
-  color: #ebcfa7;
+.footer .footer-menu li a span {
+  font-weight: 600;
+  letter-spacing: 0.04rem;
+ 
+  
+  
 }
+
 .footer .contact-box {
   float: right;
   color: #fff;
   text-align: right;
+  
 }
 .footer .contact-box h5 {
   margin-bottom: 10px;
@@ -6785,9 +6805,11 @@ input[type="time"]:valid:before {
 }
 .footer .contact-box ul {
   float: right;
-  margin: 0;
-  margin-top: 20px;
-  padding: 0;
+  
+  margin-top: 60px;
+  padding-right: 210px;
+  padding-left: 0;
+  
 }
 .footer .contact-box ul li {
   float: left;
@@ -6825,19 +6847,6 @@ input[type="time"]:valid:before {
 .footer .col-12 .creation a {
   color: #fff;
 }
-
-
-
-.viewing_displays{
-  display:flex;
-  }
-  
-  @media screen and (max-width: 720px) {
-    .viewing_displays{
-      display:flex;
-      flex-direction: column;
-      }
-  }
 
   /*Projects Section*/
   
@@ -7096,6 +7105,42 @@ opacity:1;
     
   
   }
+  .satvHeights{
+    color:rgb(174, 166, 166);
+    
+    position: absolute;
+    font-size: 0.6rem;
+    margin-top: 1rem;
+    letter-spacing: 0.05rem;
+  
+    font-weight: 600;
+  }
+  .white-text {
+    color: #000;
+  }
+  
+  .satvHeights span{
+    color:red;
+  }
+  
+  
+  @media screen and (min-width: 820px) {
+   
+    .satvHeights {
+      margin-left: 76em;
+    }
+  }
+  
+  @media screen and (max-width: 820px) {
+   
+    .satvHeights {
+      margin: 0 2em 0 0;
+     
+      position: absolute;
+      width: 100%;
+    }
+  }
+  
 
 .logos1{
   display: flex;
@@ -7113,3 +7158,38 @@ opacity:1;
   align-items: center;
 }
 
+.satvHeights{
+  color:rgb(174, 166, 166);
+  
+  position: absolute;
+  font-size: 0.6rem;
+  margin-top: 1rem;
+  letter-spacing: 0.05rem;
+
+  font-weight: 600;
+}
+.white-text {
+  color: #000;
+}
+
+.satvHeights span{
+  color:red;
+}
+
+
+@media screen and (min-width: 820px) {
+ 
+  .satvHeights {
+    margin-left: 76em;
+  }
+}
+
+@media screen and (max-width: 820px) {
+ 
+  .satvHeights {
+    margin: 0 2em 0 0;
+   
+    position: absolute;
+    width: 100%;
+  }
+}
