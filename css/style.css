@@ -6710,7 +6710,7 @@ input[type="time"]:valid:before {
 
 .footer .logo {
   height: 58px;
-  margin-bottom: 33px;
+  padding-bottom: 0.8em;
   margin-top: -45px;
 }
 .footer .logo img {
@@ -6775,12 +6775,18 @@ input[type="time"]:valid:before {
 .footer .footer-menu {
   display: block;
   margin: 0;
+  font-size: 1rem;
+  padding-top: 1em;
+}
+.address-section {
+  padding-top: 1em;
+  margin-left:0.6em;
 }
 .footer .footer-menu li {
   width: 100%;
   float: left;
   margin: 0;
-  padding: 4px 0;
+  padding: 0 0.5em;
   list-style: none;
 }
 .footer .footer-menu li a {
@@ -6801,7 +6807,7 @@ input[type="time"]:valid:before {
   float: right;
   color: #fff;
   text-align: right;
-  
+  margin-top: 30px;
 }
 .footer .contact-box h5 {
   margin-bottom: 10px;
@@ -6822,7 +6828,7 @@ input[type="time"]:valid:before {
 .footer .contact-box ul {
   float: right;
   
-  margin-top: 60px;
+  
   padding-right: 210px;
   padding-left: 0;
   
@@ -6850,15 +6856,17 @@ input[type="time"]:valid:before {
 .footer .col-12 {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 30px;
-  margin-top: 80px;
-  color: #fff;
+  margin-top: 70px;
+  color: grey;
   font-size: 13px;
 }
 .footer .col-12 .copyright {
   float: left;
+  font-size:0.7rem;
 }
 .footer .col-12 .creation {
   float: right;
+  font-size:0.7rem;
 }
 .footer .col-12 .creation a {
   color: #fff;
@@ -6866,11 +6874,11 @@ input[type="time"]:valid:before {
 
   /*Projects Section*/
   
-  .hide { /* You can play with the seconds to change the "animation" */
+  .hide { 
     animation: hide .3s ease 0s 1 normal forwards;
     transform-origin: center;
   }
-  .show { /* You can play with the seconds to change the "animation" */
+  .show { 
       animation: show .3s ease 0s 1 normal forwards;    
       transform-origin: center;
   }
@@ -7071,10 +7079,41 @@ input[type="time"]:valid:before {
     transition: 0.3s ease-in;
 
   }
+  
 
 
 
   @media screen and (max-width: 1000px) {
+    .footer .contact-box{
+      padding-right:0px;
+    }
+    .footer .footer-menu {
+font-size:0.85rem;
+    }
+    .address-section {
+      font-size:0.85rem;
+    }
+    .footer .col-12 {
+      
+      padding-top: 30px;
+      margin-top: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+    }
+    .footer .col-12 .copyright {
+      
+      font-size:0.7rem;
+    }
+    .footer .col-12 .creation {
+      padding-right: 5.2em;
+      font-size:0.7rem;
+    }
+    .footer .col-12 .creation a {
+      color: #fff;
+    }
+
     .projects{
       display:flex;
       flex-direction: column;
