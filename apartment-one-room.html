@@ -118,7 +118,7 @@
 
           </li>
           <li>
-            <div class="satvHeights"><span>●</span>NEW</div>
+            <div class="satvHeights" id="blink2"><span>●</span>NEW</div>
             <a href="apartment-one-room.html">SATVIKA HEIGHTS</a>
      
           </li>
@@ -207,7 +207,7 @@
               <a href="projects.html">PROJECTS</a>
             </li>
             <li>
-              <div class="satvHeights"><span>●</span>NEW</div>
+              <div class="satvHeights" id="blink"><span>●</span>NEW</div>
               <a href="apartment-one-room.html">SATVIKA HEIGHTS</a>
     
             </li>
@@ -2279,6 +2279,16 @@ $('[data-toggle="tooltip"]').tooltip()
 	 });
  });
 </script><script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+<script type="text/javascript">
+  timer();
+  function timer(){
+    let blink = document.getElementById("blink");
+    blink.style.opacity = blink.style.opacity == 0 ? 1 : 0;
+    let blink2 = document.getElementById("blink2");
+    blink2.style.opacity = blink2.style.opacity == 0 ? 1 : 0;
+    setTimeout(timer,500);
+  }
+</script>
 <script>
  $('.js-tilt').tilt({
 	 glare: true,
