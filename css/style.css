@@ -6789,7 +6789,7 @@ font-size: 0.9rem;
   padding-top:1.5em ;
   color:white;
   }
-.footer .footer-menu li {
+.footer .footer-menu li a  {
   width: 100%;
   float: left;
   margin: 0;
@@ -6807,7 +6807,7 @@ font-size: 0.9rem;
   font-weight: 300;
   
 }
-.footer .footer-menu li span {
+.footer .footer-menu li a span {
   font-weight: 500;
   font-size: 1.1rem;
   letter-spacing: 0.05rem;
@@ -7222,7 +7222,7 @@ font-size: 0.9rem;
     grid-column: 1 / span 2;
   }
 }
-}
+
 
 @media only screen and (max-width: 1024px) and (min-width: 768px){
   .satvHeights {
