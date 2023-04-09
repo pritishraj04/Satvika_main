@@ -48,6 +48,7 @@ theme.
 
 */
 /* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display|Poppins:300,400,600,800&display=swap&subset=latin-ext");
 /* BODY */
 * {
@@ -6709,8 +6710,12 @@ input[type="time"]:valid:before {
   display: flex;
   flex-wrap: wrap;
   padding-top: 80px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   background: #26282b;
+  padding-left:1em ;
+  padding-right:0em ;
+  font-family: 'Roboto', sans-serif;
+
 }
 .footer p {
   color: #fff;
@@ -6722,6 +6727,7 @@ input[type="time"]:valid:before {
 .footer .logo {
   height: 58px;
   padding-bottom: 0.8em;
+  padding-left: 2rem;
   margin-top: -45px;
 }
 .footer .logo img {
@@ -6786,44 +6792,68 @@ input[type="time"]:valid:before {
 .footer .footer-menu {
   display: block;
   margin: 0;
-  font-size: 1rem;
-  padding-top: 1em;
+  letter-spacing: 0.03rem;
+  padding-top: 0.5em;
+  
+  
 }
 .address-section {
   padding-top: 1em;
-  margin-left:0.6em;
+  padding-left:4.2em;
+  font-size: 0.9rem;
+  letter-spacing: 0.03rem;
+  line-height: 1.4rem;
 }
+.address-section p{
+width:70%;
+margin:0;
+padding-bottom: 0.2em;
+font-size: 0.9rem;
+
+}
+.address-section  span a {
+  position: relative;
+  
+  padding-top:1.5em ;
+  color:white;
+  }
 .footer .footer-menu li {
   width: 100%;
   float: left;
   margin: 0;
   padding: 0 0.5em;
   list-style: none;
-}
-.footer .footer-menu li a {
+  
+
+
   float: left;
   color: #fff;
   text-decoration: none;
   margin-top: 1px;
+  font-size: 0.9rem;
+  line-height: 1.9rem;
+  font-weight: 300;
+  
 }
-.footer .footer-menu li a span {
-  font-weight: 600;
-  letter-spacing: 0.04rem;
+.footer .footer-menu li span {
+  font-weight: 500;
+  font-size: 1.1rem;
+  letter-spacing: 0.05rem;
+  padding-bottom: 1rem;
  
-  
-  
 }
 
 .footer .contact-box {
-  float: right;
+  float:left;
   color: #fff;
   text-align: right;
-  margin-top: 30px;
+  padding-top: 3em;
+  
 }
 .footer .contact-box h5 {
   margin-bottom: 10px;
   font-size: 19px;
-  font-family: "Playfair Display", serif;
+  
 }
 .footer .contact-box h3 {
   font-weight: 600;
@@ -6836,17 +6866,10 @@ input[type="time"]:valid:before {
   color: #fff;
   opacity: 0.5;
 }
-.footer .contact-box ul {
-  float: right;
-  
-  
-  padding-right: 210px;
-  padding-left: 0;
-  
-}
+
 .footer .contact-box ul li {
   float: left;
-  margin-left: 5px;
+  margin-left: 20px;
   padding: 0;
   list-style: none;
 }
@@ -6859,6 +6882,7 @@ input[type="time"]:valid:before {
   font-size: 13px;
   color: #fff;
   background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
 }
 .footer .contact-box ul li a:hover {
   color: #26282b;
@@ -6867,6 +6891,7 @@ input[type="time"]:valid:before {
 .footer .col-12 {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 30px;
+  
   margin-top: 70px;
   color: grey;
   font-size: 13px;
@@ -7095,35 +7120,7 @@ input[type="time"]:valid:before {
 
 
   @media screen and (max-width: 1000px) {
-    .footer .contact-box{
-      padding-right:0px;
-    }
-    .footer .footer-menu {
-font-size:0.85rem;
-    }
-    .address-section {
-      font-size:0.85rem;
-    }
-    .footer .col-12 {
-      
-      padding-top: 30px;
-      margin-top: 30px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
 
-    }
-    .footer .col-12 .copyright {
-      
-      font-size:0.7rem;
-    }
-    .footer .col-12 .creation {
-      padding-right: 5.2em;
-      font-size:0.7rem;
-    }
-    .footer .col-12 .creation a {
-      color: #fff;
-    }
 
     .projects{
       display:flex;
@@ -7274,4 +7271,120 @@ opacity:1;
 }
 .satvikasites:hover{
   opacity: 1;
+}
+.container1{
+  display:flex;
+}
+.container2{
+  display: flex;
+}
+
+
+@media screen and (max-width: 767px) {
+
+.footer {
+  padding-left:0;
+}
+.footer .logo {
+  padding-left:0;
+}
+.footer .contact-box{
+  float:left;
+}
+.footer .footer-menu {
+font-size:0.85rem;
+padding-top: 2.2em;
+line-height: 1rem;
+}
+
+.footer .footer-menu li span {
+  
+  font-size: 1.1rem;
+  letter-spacing: 0.05rem;
+  padding-bottom: 0.3rem;
+ 
+}
+.address-section {
+  font-size:0.85rem;
+  padding-top: 0.5em;
+  padding-left: 1.4em;
+}
+.footer .col-12 {
+  
+  padding-top: 30px;
+  margin-top: 30px;
+text-align: center;
+justify-content: center;
+align-items: center;
+
+}
+.footer .col-12 .copyright {
+  float: none;
+  font-size:0.5rem;
+}
+.footer .col-12 .creation {
+  float: none;
+  font-size:0.5rem;
+}
+.footer .col-12 .creation a {
+  color: #fff;
+}
+
+.footer .contact-box {
+  float:left;
+  color: #fff;
+ margin-left: -50px;
+  padding-top: 0.5em;
+  
+}
+
+
+.footer .contact-box ul li {
+  float: left;
+  margin-left:20px;
+}
+.footer .contact-box ul li a {
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-align: center;
+
+  font-size: 13px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.changetoright{
+  position: absolute;
+  padding-left: 15em;
+  padding-top: 8.8em;
+}
+.footer {
+
+  
+  padding-right:0em ;
+
+}
+
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+  .footer .footer-menu {
+    
+    padding-top: 2.2em;
+    padding-left: 2.5em;
+    
+    }
+    .footer .contact-box {
+    
+      padding-top: 1.2em;
+      
+      
+      
+      }
+      .footer .contact-box ul li {
+        
+        margin-left: 15px;
+        
+      }
 }
