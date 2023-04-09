@@ -7240,44 +7240,48 @@ opacity:1;
 }
 
 
-@media screen and (min-width: 820px) {
+@media screen and (min-width: 1025px) {
  
   .satvHeights {
     margin-left: 76em;
   }
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 767px) {
  
   .satvHeights {
-    margin: 0 2em 0 0;
-   
+    padding-top: 5.3em;
     position: absolute;
     width: 100%;
-  }
+  
 }
 .allfixes{
   display: flex;
+  flex-direction: column;
+  
 }
-@media screen and (max-width: 820px) {
- 
-  .allfixes{
-    display: flex;
-    flex-direction: column;
-  }
-}
+
 .satvikasites{
-  opacity: 0.6;
+opacity: 0.6;
 }
 .satvikasites:hover{
-  opacity: 1;
+opacity: 1;
 }
-.container1{
-  display:flex;
 }
-.container2{
+
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+  .satvHeights {
+    padding-top: 6.8em;
+    position: absolute;
+    width: 100%;
+  
+}
+.allfixes{
   display: flex;
+  gap:0.5em;
 }
+}
+
 
 
 @media screen and (max-width: 767px) {
