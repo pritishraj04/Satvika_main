@@ -98,37 +98,16 @@
       <div class="menu">
         <ul>
           <li><a href="index.html">ABOUT US</a></li>
+
           <li>
-            <a href="#">Satvika</a>
-            <ul>
-              <li><a href="zaga-construction.html">Zaga Construction</a></li>
-              <li><a href="about-Satvika.html">About Satvika</a></li>
-              <li><a href="Satvika-blocks.html">Satvika Blocks</a></li>
-            </ul>
+            <a href="projects.html">PROJECTS</a>
           </li>
           <li>
-            <a href="#">PROJECTS</a>
-            <ul>
-              <li><a href="sales-offices.html">Sales Offices</a></li>
-              <li><a href="press-relases.html">Press Relases</a></li>
-              <li><a href="photo-gallery.html">Photo Gallery</a></li>
-              <li><a href="intro-video.html">Intro Video</a></li>
-              <li><a href="certificates.html">Certificates</a></li>
-              <li><a href="faq.html">FAQ</a></li>
-              <li><a href="sales.html">Sales Team</a></li>
-              <li><a href="404.html">404 Error</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">NEW DEVELOPMENT</a>
-            <ul>
-              <li><a href="apartment-one-room.html">1 Room 47m²</a></li>
-              <li><a href="apartment-two-rooms.html">2 Rooms 65m²</a></li>
-              <li><a href="apartment-three-rooms.html">3 Rooms 90m²</a></li>
-            </ul>
+            <div class="satvHeights" id="blink"><span>●</span>NEW</div>
+            <a href="apartment-one-room.html">SATVIKA HEIGHTS</a>
           </li>
           <li><a href="facilities.html">SERVICES</a></li>
-          <li><a href="news.html">LATEST NEWS</a></li>
+          <li><a href="news2.html">LATEST NEWS</a></li>
           <li><a href="contact.html">CONTACT</a></li>
         </ul>
       </div>
@@ -178,7 +157,10 @@
             <a href="#"><i class="fab fa-youtube"></i></a>
           </li>
         </ul>
-        <small>© 2019 Satvika - Real Estate & Civil Engineering | Best Developer/Builder in Bihar</small>
+        <small
+          >© 2019 Satvika - Real Estate & Civil Engineering | Best
+          Developer/Builder in Bihar</small
+        >
       </div>
       <!-- end side-content -->
     </div>
@@ -227,7 +209,7 @@
             </div>
             <!-- end upper-side -->
             <div class="menu">
-              <div class="satvHeights"><span>●</span>NEW</div>
+              
               <ul>
                 <li><a href="about-homepark.html">ABOUT US</a></li>
     
@@ -236,11 +218,11 @@
            
                 </li>
                 <li>
-                 
+                  <div class="satvHeights" id="blink2"><span>●</span>NEW</div>
                   <a href="apartment-one-room.html">
                   SATVIKA HEIGHTS</a></li>
                 <li><a href="facilities.html">SERVICES</a></li>
-                <li><a href="news.html">LATEST NEWS</a></li>
+                <li><a href="news2.html">LATEST NEWS</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
               </ul>
             </div>
@@ -252,6 +234,7 @@
       </div>
       <!-- end container -->
     </nav>
+   
     <!-- end navbar -->
     <header
       class="page-header"
@@ -481,7 +464,16 @@
       <!-- end container -->
     </footer>
     <!-- end footer -->
-
+    <script type="text/javascript">
+      timer();
+      function timer(){
+        let blink = document.getElementById("blink");
+        blink.style.opacity = blink.style.opacity == 0 ? 1 : 0;
+        let blink2 = document.getElementById("blink2");
+        blink2.style.opacity = blink2.style.opacity == 0 ? 1 : 0;
+        setTimeout(timer,500);
+      }
+    </script>
     <!-- JS FILES -->
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
