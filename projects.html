@@ -128,20 +128,22 @@
     <!-- end transition-overlay -->
     <div class="side-navigation">
       <div class="menu">
-        <div class="satvHeights"><span>●</span>NEW</div>
+       
         <ul>
           <li><a href="index.html">ABOUT US</a></li>
 
           <li>
+            
             <a href="projects.html">PROJECTS</a>
   
           </li>
           <li>
+            <div class="satvHeights" id="blink"><span>●</span>NEW</div>
             <a href="apartment-one-room.html">SATVIKA HEIGHTS</a>
     
           </li>
           <li><a href="facilities.html">SERVICES</a></li>
-          <li><a href="news.html">LATEST NEWS</a></li>
+          <li><a href="news2.html">LATEST NEWS</a></li>
           <li><a href="contact.html">CONTACT</a></li>
         </ul>
       </div>
@@ -202,13 +204,13 @@
             <a href="index.html"><img src="images/Logo3.svg" alt="Image" /></a>
           </div>
           <!-- end logo -->
-          <div class="phone-email">
+          <div class="phone-email" style="margin-right: 2em;">
             <img src="images/icon-phone.png" alt="Image" />
             <h4>(+91) - 87095 95001</h4>
             <small><a href="#">mail@satvikagroup.in</a></small>
           </div>
           <!-- end phone -->
-          <div class="language"><a href="#">EN</a> <a href="#">UA</a></div>
+          
           <!-- end language -->
           <div class="hamburger">
             <span></span> <span></span> <span></span><span></span>
@@ -217,7 +219,7 @@
         </div>
         <!-- end upper-side -->
         <div class="menu">
-          <div class="satvHeights"><span>●</span>NEW</div>
+          
           <ul>
             <li><a href="index.html">ABOUT US</a></li>
  
@@ -227,11 +229,12 @@
               
             </li>
             <li>
+              <div class="satvHeights" id="blink2"><span>●</span>NEW</div>
               <a href="apartment-one-room.html">SATVIKA HEIGHTS</a>
   
             </li>
             <li><a href="facilities.html">SERVICES</a></li>
-            <li><a href="news.html">LATEST NEWS</a></li>
+            <li><a href="news2.html">LATEST NEWS</a></li>
             <li><a href="contact.html">CONTACT</a></li>
           </ul>
         </div>
@@ -367,29 +370,29 @@
           <!-- end col-4 -->
           <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.10s">
             <ul class="footer-menu">
-              <li style="padding-bottom:0.7rem; "><span>Company</span></li>
-              <li>SATVIKA Group</li>
-              <li>Gallery</li>
-              <li>Careers</li>
-              <li>Contact Us</li>
+              <li style="padding-bottom:0.7rem; "><a href="#"><span>Company</span></a></li>
+              <li><a href="#" > SATVIKA Group</a></li>
+              <li><a href="#" >Gallery</a></li>
+              <li><a href="#" >Careers</a></li>
+              <li><a href="#" >Contact Us</a></li>
             </ul>
           </div>
           <!-- end col-2 -->
           <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.15s">
             <ul class="footer-menu">
-              <li style="padding-bottom:0.7rem;"><span>Projects</span></li>
-              <li>Heights</li>
-              <li>Dular Estate</li>
-              <li>Alpha Tower</li>
+              <li style="padding-bottom:0.7rem;"><a href="#"><span>Projects</span></a></li>
+              <li><a href="#">Heights</a></li>
+              <li><a href="#">Dular Estate</a></li>
+              <li><a href="#">Alpha Tower</a></li>
              
             </ul>
           </div>
           <div class="col-lg-2 col-md-6 wow fadeInUp changetoright" data-wow-delay="0.15s">
             <ul class="footer-menu ">
-              <li style="padding-bottom:0.7rem;"><span>Connect</span></a></li>
-              <li>Staff Login</li>
-              <li>Client Login</li>
-              <li>Support</li>
+              <li style="padding-bottom:0.7rem;"><a href="#"><span>Connect</span></a></li>
+              <li><a href="#">Staff Login</a></li>
+              <li><a href="#">Client Login</a></li>
+              <li><a href="#">Support</a></li>
              
             </ul>
           </div>
@@ -458,6 +461,16 @@
                 loopCount: true
             });
         });
+</script>
+<script type="text/javascript">
+  timer();
+  function timer(){
+    let blink = document.getElementById("blink");
+    blink.style.opacity = blink.style.opacity == 0 ? 1 : 0;
+    let blink2 = document.getElementById("blink2");
+    blink2.style.opacity = blink2.style.opacity == 0 ? 1 : 0;
+    setTimeout(timer,500);
+  }
 </script>
 <script type='text/javascript' src='js/plugins/elementor/assets/js/frontend-modules.min.js'></script>
 <script type='text/javascript' src='js/ui/position.min.js'></script>
