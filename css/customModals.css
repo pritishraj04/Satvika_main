@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+/* emi */
+.emi {
+  font-family: "Poppins", sans-serif;
+}
+.emi-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.emi-header h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+@media (max-width: 576px) {
+  .calculator {
+    grid-template-columns: 1fr;
+  }
+}
+.calculator .calculator-input:has(button) {
+  align-self: self-end;
+}
+.calculator .calculator-input input {
+  width: 100%;
+  padding: 10px 14px;
+  font-weight: 400;
+  font-size: 18px;
+  border: 1px solid #7d7d7d;
+  border-radius: 4px;
+}
+
+.calculator .calculator-input input:focus {
+  outline: none;
+  border: 1px solid black;
+}
+
+.calculator .calculator-input label {
+  font-size: 14px;
+  margin: 2px 4px;
+  font-weight: 500;
+}
+
+.calculator .calculator-input button {
+  width: 100%;
+  padding: 14px 16px;
+  font-weight: 400;
+  cursor: pointer;
+  background: #9f8054;
+  border: 0;
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+/*chrome, safari, edge, opera*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*Firefox*/
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.calculator-result {
+  margin: 20px 0;
+}
+.calculator-result ul {
+  background: #96125110;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.calculator-result li {
+  list-style: none;
+  line-height: 28px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.calculator-result .loan_emi {
+  font-weight: 700;
+  font-size: 22px;
+  color: #9f8054;
+}
+.calculator-result .loan_principle,
+.calculator-result .loan_interest_rate,
+.calculator-result .loan_total {
+  color: #333332;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.calculator-result canvas {
+  margin-block: 20px;
+}
+
+.field:has(button) {
+  align-self: self-end;
+  margin-top: 8px;
+}
+.field input {
+  width: 100%;
+  padding: 10px 14px;
+  font-weight: 400;
+  font-size: 18px;
+  border: 1px solid #7d7d7d;
+  border-radius: 4px;
+}
+.field select {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 16px;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+}
+
+.field input:focus {
+  outline: none;
+  border: 1px solid black;
+}
+
+.field label {
+  font-size: 14px;
+  margin: 2px 4px;
+  font-weight: 500;
+}
+
+.field button {
+  width: 100%;
+  padding: 14px 16px;
+  font-weight: 400;
+  cursor: pointer;
+  background: #9f8054;
+  border: 0;
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+/*chrome, safari, edge, opera*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*Firefox*/
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

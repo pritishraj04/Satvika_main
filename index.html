@@ -80,6 +80,7 @@
     <link rel="stylesheet" href="css/swiper.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/customModals.css" />
   </head>
   <body>
     <div class="preloader">
@@ -548,7 +549,7 @@
                 eiusmod
               </p>
 
-              <a href="emi.html"
+              <a href="#" data-toggle="modal" data-target="#emiCalModal"
                 ><img src="images/icon-calculator.png" alt="Image" /> EMI
                 Calculator</a
               >
@@ -972,7 +973,7 @@
       aria-labelledby="booking"
       aria-hidden="true"
     >
-      <div class="modal-dialog" role="document" style="margin-top: 140px">
+      <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="booking">Bookings</h5>
@@ -1041,23 +1042,16 @@
                   id="bookingProject"
                   required
                 >
-                  <option value="alpha-park">Alpha Park</option>
-                  <option value="ap-mall">AP Mall</option>
+                  <option value="alpha-park">Project 1</option>
+                  <option value="ap-mall">Project 2</option>
+                  <option value="ap-mall">Project 3</option>
+                  <option value="ap-mall">Project 4</option>
                 </select>
               </div>
               <div class="field">
                 <button type="submit" class="btn">Request Booking</button>
               </div>
             </form>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Close
-            </button>
           </div>
         </div>
       </div>
@@ -1071,7 +1065,7 @@
       aria-labelledby="instantEnq"
       aria-hidden="true"
     >
-      <div class="modal-dialog" role="document" style="margin-top: 140px">
+      <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="instantEnq">Instant Enquiry</h5>
@@ -1146,15 +1140,6 @@
               </div>
             </form>
           </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Close
-            </button>
-          </div>
         </div>
       </div>
     </div>
@@ -1167,71 +1152,59 @@
       aria-labelledby="emCalculator"
       aria-hidden="true"
     >
-      <div class="modal-dialog" role="document" style="margin-top: 140px">
+      <div class="modal-dialog" role="document">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="emCalculator">Emi Calculator</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-              style="height: 20px; width: 20px"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
           <div class="modal-body">
-            <div class="field">
-              <label for="loanAmount">Loan Amount</label>
-              <input
-                class="contact-form_field field required"
-                name="loanAmount"
-                id="loanAmount"
-                type="number"
-                min="1000"
-                max="10000000"
-              />
+            <div class="emi">
+              <div class="emi-header">
+                <h3>EMI Calculator</h3>
+
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                  style="height: 20px; width: 20px"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+
+              <div class="calculator">
+                <div class="calculator-input">
+                  <label for="">Loan Amount (Rs.):</label>
+                  <input type="number" id="loan_amount" />
+                </div>
+                <div class="calculator-input">
+                  <label for="">Loan Tenure (Year.):</label>
+                  <input type="number" id="loan_tenure" />
+                </div>
+                <div class="calculator-input">
+                  <label for="">Interest Rate (%):</label>
+                  <input type="number" id="loan_interest" />
+                </div>
+                <div class="calculator-input">
+                  <button class="calculator-btn">Calculate EMI</button>
+                </div>
+              </div>
+
+              <div class="calculator-result">
+                <!---Canvas-->
+                <canvas id="loanChart"></canvas>
+                <ul>
+                  <li>Monthly Loan EMI: <span class="loan_emi"></span></li>
+                  <li>
+                    Principle Amount: <span class="loan_principle"></span>
+                  </li>
+                  <li>
+                    Loan on Interest: <span class="loan_interest_rate"></span>
+                  </li>
+                  <li>
+                    Total Amount to be paid: <span class="loan_total"></span>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="field">
-              <label for="interest">Rate of Interest</label>
-              <input
-                class="contact-form_field field required"
-                type="number"
-                step=".01"
-                min="5"
-                max="25"
-                name="interest"
-                id="interest"
-              />
-            </div>
-            <div class="field">
-              <label for="duration">Number of Years</label>
-              <input
-                class="contact-form_field field required"
-                type="number"
-                min="5"
-                max="30"
-                name="duration"
-                id="duration"
-              />
-            </div>
-            <div class="field">
-              <h5>Result:</h5>
-              <h4 id="emiResult">0</h4>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" class="btn" onclick="calculateEMI()">
-              Calculate
-            </button>
           </div>
         </div>
       </div>
@@ -1295,5 +1268,7 @@
     <script src="js/isotope.min.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/ctas.js"></script>
+    <script src="js/calculator.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
   </body>
 </html>
