@@ -1952,6 +1952,9 @@ button[type="submit"] {
 .projectgallery{
   font-size: 20px;
 }
+.hell:hover{
+
+}
 .swiper-slide img{
   height: 600px;
 }
@@ -1976,6 +1979,10 @@ button[type="submit"] {
   color: #fff;
 
 
+}
+#hell:hover{
+  background-color: black;
+  color: white;
 }
 .apartment .property-infos2 img{
   display: inline-block;
