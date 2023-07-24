@@ -1984,6 +1984,10 @@ button[type="submit"] {
   background-color: black;
   color: white;
 }
+#hell2:hover{
+  
+  color: white;
+}
 .apartment .property-infos2 img{
   display: inline-block;
 
