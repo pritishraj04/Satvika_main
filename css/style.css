@@ -7569,9 +7569,18 @@ font-size: 13.5px;
     height: 206px;
     margin: 7px 31px 0 0;
   }
+  .acres_sec .acre_head h6{
+    font-size: 20px;
+    line-height: 26px;
+    padding-right: 8px;
+    display: inline-block;
+    color: #222;
+    font-weight: 600;
+    letter-spacing: -1px;
+  }
   .acres_sec{
     display:flex;
-    width:94%;
+    width:95%;
     margin: 0 auto 40px;
     border: none;
     padding: 31px 40px 31px 20px;
@@ -7579,9 +7588,14 @@ font-size: 13.5px;
   }
   .acres_sec .acre_para p{
     letter-spacing: .1px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     font-size: 12.5px;
     line-height: 1.8;
+    width:100%;
     
+  }
+  .acre_info{
+    width:100%;
+    margin-top: 0px;
   }
 }
