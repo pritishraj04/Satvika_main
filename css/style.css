@@ -1930,11 +1930,74 @@ button[type="submit"] {
   margin: 0;
   padding: 4px 0;
 }
+.headerbrochure{
+  font-size: 1.5em;
+  font-weight: 600;
+}
 .apartment blockquote {
   display: inline-block;
   padding: 30px;
-  background: var(--clr-accent-300);
+  background: #f5f5f5;
   margin-bottom: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-image:url(".././images/hellomoto.png");
+  
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  
+}
+.hellobro{
+  height: 200px;
+  width: 200px;
+  z-index: 99;
+}
+@media screen and (max-width: 600px){
+  .hoverLogo{
+    display: none;
+  }
+}
+@media screen and (max-width:991px) {
+  .hoverLogo{
+    display: none;
+  }
+}
+
+@media screen and (max-width:1100px) {
+  .hoverLogo{
+    display: none;
+  }
+}
+.backqouter{
+  
+  background-image:url(".././images/satvikahoverabove.png");
+  z-index: 1;
+}
+
+.hoverLogo{
+  top: 33em;
+  left: 68em;
+  width:250px;
+  position: absolute;
+  
+}
+.hoverLogo {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+.hoverLogo {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
 }
 .apartment blockquote p {
   margin: 0;
