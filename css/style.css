@@ -7513,43 +7513,53 @@ input[type="time"]:valid:before {
 }
 .acres_sec{
   display:flex;
-  width:80%;
+  max-width: 1150px;
   margin: 0 auto 40px;
   border: none;
-  padding: 31px 40px 31px 39px;
+  padding: 15px 10px 0px 20px;
+  border-radius: 10px;
   background-color: #f5f5f5;
 }
 .acres_sec .acre_head{
-  margin-bottom:6px;
+  margin-bottom:5px;
 }
 
 .acres_sec .acre_head h6{
-  font-size: 16px;
+  font-size: 28px;
   line-height: 26px;
   padding-right: 8px;
   display: inline-block;
   color: #222;
   font-weight: 600;
+  letter-spacing: -1px;
 }
-
-.acres_sec .acre_head span{
+.acres_sec .acre_para2{
+  padding-top: 12px;
+}
+.acres_sec .acre_para2 span{
   line-height: 26px;
-font-size: 14px;
+font-size: 13.5px;
   color: #999;
   display: inline-block;
-  padding-left: 11px;
+  
   position: relative;
 }
 .acres_sec .acre_img{
-  width: 106px;
-  height: 106px;
-  margin: 7px 31px 0 0;
+  width: 130px;
+  height: 150px;
+  margin: 0 15px 0 0;
+}
+.acre_info{
+  width:80%;
+  margin-top: 7px;
 }
 
 .acres_sec .acre_para p{
-  letter-spacing: .1px;
-  margin-bottom: 15px;
-  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: rgb(123, 123, 123);
+  margin-bottom: 0px;
+  font-size: 15px;
+  width:92%;
   
 }
 
