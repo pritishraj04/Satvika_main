@@ -7513,7 +7513,7 @@ input[type="time"]:valid:before {
 }
 .acres_sec{
   display:flex;
-  max-width: 1150px;
+  max-width: 1165px;
   margin: 0 auto 40px;
   border: none;
   padding: 15px 10px 0px 20px;
@@ -7561,6 +7561,10 @@ font-size: 13.5px;
   font-size: 15px;
   width:92%;
   
+}
+.acre_hr{
+  margin-bottom: 50px;
+  max-width:1180px;
 }
 
 @media (max-width: 767px) {
