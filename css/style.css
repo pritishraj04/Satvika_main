@@ -115,6 +115,9 @@ body {
     padding-bottom: -4em;
     
   }
+  .page-header .container p{
+    font-size: 5px;
+  }
  
 }
 
@@ -3100,8 +3103,14 @@ button[type="submit"] {
 @media only screen and (max-width: 991px),
   only screen and (max-device-width: 991px) {
   .side-navigation .side-content {
+    display: block;
+  }
+  .side-content p{
     display: none;
   }
+    .side-content .gallery{
+      display: none;
+    }
   .side-navigation .menu {
     display: block;
   }
