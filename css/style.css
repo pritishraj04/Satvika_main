@@ -1436,11 +1436,11 @@ button[type="submit"] {
 .benefits h4 {
   display: block;
   font-size: 30px;
-  font-family: "Playfair Display", serif;
+  font-family: sans-serif;
   margin-bottom: 15px;
 }
 .benefits h4 span {
-  color: var(--clr-accent-400);
+  color:#161675;
 }
 .benefits h3 {
   font-weight: 600;
@@ -3460,7 +3460,7 @@ button[type="submit"] {
   font-weight: 500;
   font-size: 1.7rem;
   letter-spacing: 0.02rem;
-  color: var(--clr-accent-500);
+  color: black;
 }
 
 @media screen and (max-width: 600px) {
@@ -3532,7 +3532,7 @@ button[type="submit"] {
 
 .floor-plans .nav-pills a.nav-link::before {
   content: "";
-  background-color: var(--clr-accent-300);
+  background-color: black;
   position: absolute;
   left: 0;
   top: 0;
@@ -3560,7 +3560,7 @@ button[type="submit"] {
 .floor-plans .nav-pills .show > .nav-link {
   color: #fff;
   font-weight: bold;
-  background-color: var(--clr-accent-300);
+  background-color: black;
 }
 
 .floor-plans .carousel-item img {
