@@ -87,7 +87,7 @@ body {
 
 @media screen and (max-width:600px) {
   #SatvikaHeights2{
-    font-size: 40px;
+    font-size: 30px;
   }
  
 }
@@ -98,7 +98,7 @@ body {
 }
 @media screen and (max-width:600px) {
   #SatvikaHeights3{
-    font-size: 35px;
+    font-size: 30px;
     
   }
  
@@ -1227,6 +1227,11 @@ button[type="submit"] {
   margin: 0;
   padding-bottom: 20px;
 }
+@media screen and (max-width:600px) {
+  .page-header .container p {
+    font-size: 14px;
+  }
+}
 .page-header .container .breadcrumb {
   position: absolute;
   left: 15px;
@@ -1947,6 +1952,14 @@ button[type="submit"] {
   margin-bottom: 30px;
   font-weight: 600;
   opacity: 0.5;
+}
+@media screen and (max-width:600) {
+  .apartment h5 {
+    margin-bottom: 30px;
+    font-weight: 400;
+    opacity: 0.5;
+    font-size: 11px;
+  }
 }
 
 .apartment h4 {
@@ -3104,6 +3117,9 @@ button[type="submit"] {
   only screen and (max-device-width: 991px) {
   .side-navigation .side-content {
     display: block;
+  }
+  .satvikaheights2cont{
+    
   }
   .side-content p{
     display: none;
