@@ -1163,7 +1163,7 @@ button[type="submit"] {
 /* PAGE HEADER */
 .page-header {
   width: 100%;
-  height: 500px;
+  min-height: 480px;
   display: flex;
   flex-wrap: wrap;
   padding-top: 200px;
@@ -1201,6 +1201,7 @@ button[type="submit"] {
   color: #fff;
   font-size: 20px;
   margin: 0;
+  padding-bottom: 20px;
 }
 .page-header .container .breadcrumb {
   position: absolute;
@@ -7622,12 +7623,10 @@ input[type="time"]:valid:before {
   line-height: 26px;
 font-size: 13.5px;
   color: #999;
-  display: inline-block;
-  
-  position: relative;
+
 }
 .sub_img_head{
-  line-height: 26px;
+
   font-size: 12px;
     color: #999;
 }
@@ -7660,7 +7659,7 @@ font-size: 13.5px;
 
 @media (max-width: 767px) {
   .acres_sec .acre_img{
-    width: 306px;
+    width: 206px;
     height: 206px;
     margin: 7px 31px 0 0;
   }
@@ -7678,13 +7677,13 @@ font-size: 13.5px;
     width:95%;
     margin: 0 auto 40px;
     border: none;
-    padding: 31px 40px 31px 20px;
+    padding: 31px 10px 31px 10px;
     background-color: #f5f5f5;
   }
   .acres_sec .acre_para p{
     letter-spacing: .1px;
     margin-bottom: 0px;
-    font-size: 12.5px;
+    font-size: 13px;
     line-height: 1.8;
     width:100%;
     
@@ -7693,4 +7692,41 @@ font-size: 13.5px;
     width:100%;
     margin-top: 0px;
   }
+  .acres_sec .acre_para2 span{
+    line-height: 10px;
+  font-size: 12.5px;
+    color: #999;
+  
+  }
+  .acre_info{
+    width:90%;
+    margin-top: 7px;
+  }
+
+  .page-header {
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 200px;
+    background-color: var(--clr-text-400);
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .apartment {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0 0;
+  }
+
+  #stv_h{
+    color: #000;
+    letter-spacing: 2px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
 }
