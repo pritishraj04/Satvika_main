@@ -84,10 +84,24 @@ body {
   color: #fff;
  font-size: 60px;
 }
+
+@media screen and (max-width:600px) {
+  #SatvikaHeights2{
+    font-size: 40px;
+  }
+ 
+}
 #SatvikaHeights3{
   font-family: Monument;
   color: #161675;
  font-size: 50px;
+}
+@media screen and (max-width:600px) {
+  #SatvikaHeights3{
+    font-size: 35px;
+    
+  }
+ 
 }
 #stv_h{
   color: #000;
@@ -95,6 +109,13 @@ body {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 18px;
+}
+@media screen and (max-width:600px) {
+  #stv_h{
+    padding-bottom: -4em;
+    
+  }
+ 
 }
 
 /* HTML ELEMENT */
@@ -2035,9 +2056,7 @@ button[type="submit"] {
 .projectgallery{
   font-size: 20px;
 }
-.hell:hover{
 
-}
 .swiper-slide img{
   height: 600px;
 }
@@ -2065,7 +2084,7 @@ button[type="submit"] {
 }
 #hell:hover{
   background-color: black;
-  color: white;
+  
 }
 #hell2:hover{
   
