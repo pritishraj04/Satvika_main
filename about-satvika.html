@@ -80,6 +80,7 @@
     <link rel="stylesheet" href="css/swiper.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/about.module.css"/>
   </head>
   <body>
     <div class="preloader">
@@ -243,13 +244,7 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod
         </p>
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#">Start</a></li>
-          <li class="breadcrumb-item"><a href="#">Satvika</a></li>
-          <li class="breadcrumb-item active" aria-current="page">
-            About Satvika
-          </li>
-        </ol>
+
       </div>
       <!-- end container -->
     </header>
@@ -369,13 +364,7 @@
           </div>
           <!-- end col-9 -->
           <div class="col-12">
-            <blockquote>
-              <p>
-                Song such eyes had and off. Removed winding ask explain delight
-                out few behaved lasting
-              </p>
-              <strong>Zaga Construction Lead Engineer</strong>
-            </blockquote>
+            
 
             <p>
               Considered an invitation do introduced
@@ -403,12 +392,81 @@
       </div>
       <!-- end container -->
     </section>
+    <div class="container" id="containerwa" ">
+      <h2>Frequently Asked Questions</h2>
+      <div class="accordion" >
+        <div class="accordion-item">
+          <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Why is the moon sometimes out during the day?</span><span class="icon" aria-hidden="true"></span></button>
+          <div class="accordion-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Why is the sky blue?</span><span class="icon" aria-hidden="true"></span></button>
+          <div class="accordion-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Will we ever discover aliens?</span><span class="icon" aria-hidden="true"></span></button>
+          <div class="accordion-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How much does the Earth weigh?</span><span class="icon" aria-hidden="true"></span></button>
+          <div class="accordion-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+          </div>
+        </div>
+        <div class="accordion-item" style="margin-bottom: 4em;">
+          <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How do airplanes stay up?</span><span class="icon" aria-hidden="true"></span></button>
+          <div class="accordion-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="news-letter" id="News-letter" ">
+      <div class="news ">
+        <div class="container">
+          <h1 class="news-heading">Subscribe To Get The Latest
+          <p class="des how-de">Get the Latest news about digital Marketing to Your Pocket, drop your <br> email below to
+            get daliy update about us</p>
+    
+          <form action="">
+            <input type="email" maxlength="50" required placeholder="Enter your email address">
+            <button class="bt">Subscribe</button>
+    
+          </form>
+        </div>
+      </div>
+    
+    </section>
+    <script>
+      const items = document.querySelectorAll(".accordion button");
+
+function toggleAccordion() {
+  const itemToggle = this.getAttribute('aria-expanded');
+  
+  for (i = 0; i < items.length; i++) {
+    items[i].setAttribute('aria-expanded', 'false');
+  }
+  
+  if (itemToggle == 'false') {
+    this.setAttribute('aria-expanded', 'true');
+  }
+}
+
+items.forEach(item => item.addEventListener('click', toggleAccordion));
+    </script>
     <!-- end about-content -->
     <section class="property-customization">
       <div class="video-bg">
         <video src="videos/video01.mp4" loop autoplay muted></video>
       </div>
       <!-- end video-bg -->
+      
       <div class="container">
         <div class="row">
           <div class="col-12 wow fadeInUp">
@@ -468,8 +526,43 @@
         </div>
         <!-- end row -->
       </div>
+      
       <!-- end container -->
+      
     </section>
+    <div class="containerll" >
+      <div style="margin: 0 auto;text-align: center;font-size: 25px;font-weight: 600; margin: 2em 2em;">OUR ASSOCIATIONS</div>
+      <ul class="logogrid">
+        <li class="logogrid__item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Coca-Cola_logo.svg" class="logogrid__img" alt="Coca Cola">
+        </li>
+        <li class="logogrid__item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" class="logogrid__img" alt="Google">
+        </li>
+        <li class="logogrid__item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg" class="logogrid__img" alt="AirBnB">
+        </li>
+        <li class="logogrid__item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg" class="logogrid__img" alt="Spotify">
+        </li>
+        <li class="logogrid__item">
+          <img src="https://upload.wikimedia.org/wikipedia/de/f/f9/Guinness_Logo.svg" class="logogrid__img" alt="Guinness">
+        </li>
+        <li class="logogrid__item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/Audi-Logo_2016.svg" class="logogrid__img" alt="Audi">
+        </li>
+        <li class="logogrid__item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg" class="logogrid__img" alt="Nike">
+        </li>
+        <li class="logogrid__item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" class="logogrid__img" alt="Netflix">
+        </li>
+      </ul>
+    
+    </div>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+
+
     <!-- end footer-bar -->
     <footer class="footer">
       <div class="container">
