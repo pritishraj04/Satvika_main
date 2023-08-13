@@ -156,13 +156,14 @@ a:hover {
   margin-top: 2em;
   margin-bottom: 100px;
   text-decoration: none;
+  transition: transform .2s
 }
+.brochurebutton{
+  transition: transform .2s
+}
+.brochurebutton:hover{
 
-.container .brochure:hover{
-
- background-color:  rgb(22, 22, 117);
- 
-  
+  transform: scale(1.05);
 }
 
 /* CUSTOM CONTAINER */
@@ -378,7 +379,7 @@ button[type="submit"] {
     161deg,
     rgb(38, 40, 43) 0%,
     rgb(38, 40, 43) 49%,
-    rgb(159, 128, 84) 100%
+    rgb(70, 173, 249) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="var(--clr-text-400)",endColorstr="var(--clr-accent-400)",GradientType=1);
 }
@@ -516,7 +517,7 @@ button[type="submit"] {
   right: 0;
   top: 0;
   z-index: 12;
-  background: var(--clr-accent-300);
+  background: #e1f3ff;
   transition: all 0.5s ease;
   transition-duration: 400ms;
   -webkit-transition-duration: 400ms;
@@ -570,7 +571,7 @@ button[type="submit"] {
   left: -100%;
   top: 0;
   z-index: 12;
-  background: var(--clr-accent-300);
+  background: #142c3f;
   transition: all 0.5s ease;
   transition-duration: 700ms;
   -webkit-transition-duration: 700ms;
@@ -977,7 +978,7 @@ button[type="submit"] {
     161deg,
     rgb(38, 40, 43) 0%,
     rgb(38, 40, 43) 49%,
-    rgb(159, 128, 84) 100%
+    rgb(70, 173, 249) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="var(--clr-text-400)",endColorstr="var(--clr-accent-400)",GradientType=1);
   opacity: 0.65;
@@ -990,8 +991,9 @@ button[type="submit"] {
 .slider .slider-container .swiper-slide .container h1 {
   font-size: 5vw;
   color: #fff;
-  font-family: "Playfair Display", serif;
-  color: var(--clr-accent-300);
+  font-family: Monument;
+    color: #fff;
+    font-size: 60px;
   margin-bottom: 20px;
 }
 .slider .slider-container .swiper-slide .container h1 span {
@@ -1023,9 +1025,9 @@ button[type="submit"] {
   font-weight: 600;
   padding-bottom: 10px;
   position: relative;
-  border: 2px solid var(--clr-accent-300);
+  border: 2px solid white;
   padding: 0 40px;
-  box-shadow: 0 0 20px rgba(235, 207, 167, 0.4);
+  box-shadow: 0 0 20px rgba(255, 253, 253, 0.4);
   transition: 0.25s ease-in-out;
 }
 .slider .slider-container .swiper-slide .container a i {
@@ -1292,14 +1294,23 @@ button[type="submit"] {
   min-width: 400px;
 }
 .intro .content-box {
+
   display: block;
   padding-left: 30%;
+  
 }
 .intro .content-box b {
   display: block;
   font-size: 30px;
   font-weight: 800;
   opacity: 0.2;
+  
+}
+.emihover{
+  transition: 0.1s ease-in;
+}
+.emihover:hover{
+  transform: scale(1.1);
 }
 .intro .content-box h4 {
   display: block;
@@ -1327,10 +1338,13 @@ button[type="submit"] {
 .intro .content-box a img {
   height: 46px;
   margin-right: 15px;
+  
 }
-.intro .content-box a:hover {
+.intro .content-box a img:hover {
   color: var(--clr-accent-400);
   text-decoration: none;
+
+  transform: scale(1.2);
 }
 
 /* LOGOS */
@@ -1436,7 +1450,7 @@ button[type="submit"] {
 .benefits h4 {
   display: block;
   font-size: 30px;
-  font-family: sans-serif;
+  font-family: "Playfair Display", serif;
   margin-bottom: 15px;
 }
 .benefits h4 span {
@@ -1458,7 +1472,7 @@ button[type="submit"] {
   position: absolute;
   left: 50%;
   top: 0;
-  background: var(--clr-accent-300);
+  background: #9dcef5;
   border-radius: 50%;
   opacity: 0;
   z-index: 0;
@@ -1505,7 +1519,8 @@ button[type="submit"] {
   margin-bottom: 15px;
 }
 .recent-gallery h4 span {
-  color: var(--clr-accent-400);
+  color: rgb(22, 22, 117);
+
 }
 .recent-gallery h3 {
   font-weight: 600;
@@ -1621,7 +1636,7 @@ button[type="submit"] {
   margin-bottom: 15px;
 }
 .property-calculator .content-box h4 span {
-  color: var(--clr-accent-400);
+  color: rgb(22, 22, 117);
 }
 .property-calculator .content-box h3 {
   font-weight: 600;
@@ -1683,7 +1698,7 @@ button[type="submit"] {
   margin-bottom: 15px;
 }
 .property-plans h4 span {
-  color: var(--clr-accent-400);
+  color: rgb(22, 22, 117);
 }
 .property-plans h3 {
   font-weight: 600;
@@ -1703,7 +1718,7 @@ button[type="submit"] {
   padding: 5px 0;
 }
 .property-plans table tr td:first-child {
-  color: var(--clr-accent-400);
+  color: rgb(22, 22, 117);
   width: 120px;
   font-weight: 600;
 }
@@ -1827,7 +1842,7 @@ button[type="submit"] {
   margin-bottom: 15px;
 }
 .recent-posts h4 span {
-  color: var(--clr-accent-400);
+  color: rgb(22, 22, 117);
 }
 .recent-posts small {
   display: block;
@@ -2226,7 +2241,7 @@ button[type="submit"] {
   margin-bottom: 15px;
 }
 .certificates h4 span {
-  color: var(--clr-accent-400);
+  color: rgb(22, 22, 117);
 }
 .certificates small {
   display: block;
