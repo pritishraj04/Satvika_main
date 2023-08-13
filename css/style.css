@@ -989,12 +989,24 @@ button[type="submit"] {
   padding-left: 100px;
 }
 .slider .slider-container .swiper-slide .container h1 {
-  font-size: 5vw;
+ 
   color: #fff;
   font-family: Monument;
     color: #fff;
-    font-size: 60px;
+    font-size: 50px;
   margin-bottom: 20px;
+}
+@media screen and (max-width:770px) {
+  .slider .slider-container .swiper-slide .container h1 {
+ 
+   
+      font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .slider .slider-container .swiper-slide .container h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
 }
 .slider .slider-container .swiper-slide .container h1 span {
   display: inline-block;
@@ -1326,7 +1338,7 @@ button[type="submit"] {
   margin-bottom: 15px;
 }
 .intro .content-box h4 span {
-  color: var(--clr-accent-400);
+  color:  rgb(22, 22, 117);
 }
 .intro .content-box h3 {
   font-weight: 600;
@@ -1626,6 +1638,11 @@ button[type="submit"] {
   box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
   width: 525px;
 }
+@media screen and (max-width:770px) {
+  .property-calculator figure .holder img{
+    width: 100%;
+  }
+}
 .property-calculator .content-box {
   display: block;
   padding-left: 10%;
@@ -1670,6 +1687,12 @@ button[type="submit"] {
   display: block;
   padding-right: 40%;
   margin-bottom: 30px;
+}
+@media screen and (max-width:770px) {
+  .property-calculator .content-box p{
+    width: 100%;
+    padding-right: 0%;
+  }
 }
 .property-calculator .content-box a {
   display: inline-block;
