@@ -7762,6 +7762,11 @@ font-size: 13.5px;
  }
 
 @media (max-width: 767px) {
+  .intro .content-box p {
+    display: block;
+    padding-right: 0%;
+    margin-bottom: 30px;
+}
   .acres_sec .acre_img{
     width: 206px;
     height: 206px;
