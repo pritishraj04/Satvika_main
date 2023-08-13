@@ -1283,17 +1283,20 @@ button[type="submit"] {
   position: relative;
   width: 0%;
   float: left;
-  display: block !important;
+  
+  
 }
 .intro figure .holder img {
   box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
   width: 90%;
   max-width: 90%;
-  min-width: 400px;
+  height:550px;
+  min-width: 600px;
+  border-radius: 15px;
 }
 .intro .content-box {
   display: block;
-  padding-left: 30%;
+  padding-left: 21%;
 }
 .intro .content-box b {
   display: block;
@@ -7193,27 +7196,31 @@ input[type="time"]:valid:before {
   justify-content: center;
   align-items: center;
 }
-.main h1 {
-  font-size: 1.5rem;
+.main  h1 {
+  font-size: 1.7rem;
+  padding-top: 0.3em;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  margin: 0;
+  font-weight: 500;
+  margin-bottom: 0;
+  
 }
 .main p {
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-size: 0.9rem;
-  letter-spacing: 0.05rem;
-  margin: 0;
+  font-weight: 500;
+  font-size: 0.7rem;
+  color: rgb(125, 124, 124);
+  margin-bottom: 0;
+ 
 }
 
 .project {
   background: lightgray;
-  width: 23rem;
-  height: 23rem;
-  margin: 3rem 3rem 0 3rem;
-  background: url("/images/slider1.jpg");
-  background-position: center;
+  width: 250px;
+  border-radius: 8px;
+  height: 250px;
+  margin: 3rem 4.5rem 0 4.5rem;
+  background: url("/images/landscapeh.png");
+  
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -7247,25 +7254,8 @@ input[type="time"]:valid:before {
   background-color: #7a7a7a;
 }
 
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.main h1 {
-  font-size: 1.5rem;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  margin: 0;
-}
-.main p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-size: 0.9rem;
-  letter-spacing: 0.05rem;
-  margin: 0;
-}
+
+
 
 .project .overlay {
   width: 100%;
@@ -7280,13 +7270,13 @@ input[type="time"]:valid:before {
   opacity: 1;
 }
 .overlay button {
-  padding: 10px 20px;
+  padding: 7px 14px;
   background-color: var(--clr-accent-600);
   color: #fff;
   border: none;
   cursor: pointer;
   font-size: 16px;
-  margin-top: 10rem;
+  margin-top: 7rem;
   border: 1px solid white;
   letter-spacing: 0.1rem;
 }
@@ -7308,6 +7298,7 @@ input[type="time"]:valid:before {
     width: 22rem;
     height: 28rem;
     position: relative;
+    border-radius: 8px;
   }
   .filters {
     flex-wrap: wrap;
@@ -7316,6 +7307,7 @@ input[type="time"]:valid:before {
   .filter {
     font-size: 0.8em;
     margin: 0.5rem;
+    margin-bottom: 2em;
   }
   .main h1 {
     font-size: 1.2rem;
@@ -7323,7 +7315,7 @@ input[type="time"]:valid:before {
   .main p {
     font-size: 0.8rem;
 
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
   }
   .project .overlay {
     bottom: 100%;
@@ -7332,6 +7324,7 @@ input[type="time"]:valid:before {
   .overlay button {
     width: 100%;
     margin-top: 25.25rem;
+    padding: 10px 20px;
     border: none;
   }
   .overlay button:hover {
@@ -7700,6 +7693,31 @@ font-size: 13.5px;
   margin-bottom: 13px;
   max-width:1280px;
 }
+.extra_tags .sub1{
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+
+}
+.extra_tags .sub1 span{
+ color:white;
+ background-color: #142c3f;
+ padding: 0.2em 1.5em;
+ border-radius: 15px;
+ margin-left: 0.2em;
+ font-size: 0.9em;
+ letter-spacing: 0.04em;
+ font-weight: 500;
+}
+.extra_tags .sub2 span{
+  color:white;
+  font-size: 0.9em;
+  letter-spacing: 0.04em;
+  background-color: #142c3f;
+  padding: 0.1em 1.5em;
+  border-radius: 15px;
+  margin-left: 0.2em;
+  font-weight: 500;
+ }
 
 @media (max-width: 767px) {
   .acres_sec .acre_img{
