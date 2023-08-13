@@ -7743,9 +7743,9 @@ font-size: 13.5px;
 .extra_tags .sub1 span{
  color:white;
  background-color: #142c3f;
- padding: 0.2em 1.5em;
+ padding: 0.2em 1.3em;
  border-radius: 15px;
- margin-left: 0.2em;
+ margin-left: 0.15em;
  font-size: 0.9em;
  letter-spacing: 0.04em;
  font-weight: 500;
@@ -7755,9 +7755,9 @@ font-size: 13.5px;
   font-size: 0.9em;
   letter-spacing: 0.04em;
   background-color: #142c3f;
-  padding: 0.1em 1.5em;
+  padding: 0.2em 1.3em;
   border-radius: 15px;
-  margin-left: 0.2em;
+  margin-left: 0.15em;
   font-weight: 500;
  }
 
