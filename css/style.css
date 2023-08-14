@@ -1307,6 +1307,7 @@ button[type="submit"] {
   height:550px;
   min-width: 600px;
   border-radius: 15px;
+  /*object-fit: contain;*/
 }
 .intro .content-box {
 
