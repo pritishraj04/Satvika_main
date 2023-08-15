@@ -3302,7 +3302,7 @@ button[type="submit"] {
   }
   .property-calculator figure .holder {
     transform: translate(0, -45px);
-    padding: 0 15%;
+    padding: 0 0;
   }
   .property-calculator figure .holder img {
     width: 100%;
