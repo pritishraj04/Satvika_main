@@ -2187,11 +2187,12 @@ button[type="submit"] {
 }
 .about-content h2 {
   font-size: 4vw;
-  font-family: "Playfair Display", serif;
+  font-family:  "Monument";
   margin-bottom: 20px;
 }
+
 .about-content h2 span {
-  color: var(--clr-accent-400);
+  color: #161675;
 }
 .about-content h6 {
   margin-bottom: 15px;
@@ -3134,6 +3135,7 @@ button[type="submit"] {
   padding: 20px 30px;
 }
 
+
 /* FOOTER BAR */
 
 /* RESPONSIVE MEDIUM  FIXES */
@@ -3302,7 +3304,7 @@ button[type="submit"] {
   }
   .property-calculator figure .holder {
     transform: translate(0, -45px);
-    padding: 0 15%;
+    padding: 0 0;
   }
   .property-calculator figure .holder img {
     width: 100%;
