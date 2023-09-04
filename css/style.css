@@ -2187,11 +2187,12 @@ button[type="submit"] {
 }
 .about-content h2 {
   font-size: 4vw;
-  font-family: "Playfair Display", serif;
+  font-family:  "Monument";
   margin-bottom: 20px;
 }
+
 .about-content h2 span {
-  color: var(--clr-accent-400);
+  color: #161675;
 }
 .about-content h6 {
   margin-bottom: 15px;
@@ -3133,6 +3134,7 @@ button[type="submit"] {
   border-radius: 0;
   padding: 20px 30px;
 }
+
 
 /* FOOTER BAR */
 
