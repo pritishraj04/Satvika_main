@@ -7403,6 +7403,12 @@ input[type="time"]:valid:before {
     top: -6px;
   }
 }
+@media screen and (max-width:770px) {
+  .satvHeights {
+    width: 20%;
+    top: -9px;
+  }
+}
 
 .logos1 {
   display: flex;
