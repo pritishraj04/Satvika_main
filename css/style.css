@@ -797,9 +797,12 @@ button[type="submit"] {
 .navbar .container .upper-side .logo {
   margin-left: 0;
 }
+
 .navbar .container .upper-side .logo img {
   height: 48px;
+  
 }
+
 .navbar .container .upper-side .phone-email {
   margin-right: 0;
   margin-left: auto;
@@ -809,7 +812,7 @@ button[type="submit"] {
 }
 .navbar .container .upper-side .phone-email img {
   float: right;
-  height: 34px;
+  height: 18px;
   margin-left: 15px;
 }
 .navbar .container .upper-side .phone-email h4 {
@@ -966,6 +969,8 @@ button[type="submit"] {
   align-content: center;
   background-size: auto 120%;
 }
+
+
 .slider .slider-container .swiper-slide:after {
   content: "";
   width: 100%;
@@ -997,6 +1002,12 @@ button[type="submit"] {
   margin-bottom: 20px;
 }
 @media screen and (max-width:770px) {
+  .slider .slider-container .swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit:cover;
+  }
   .slider .slider-container .swiper-slide .container h1 {
  
    
@@ -1508,9 +1519,9 @@ button[type="submit"] {
   font-size: 14px;
 }
 .benefits .odometer {
-  font-size: 50px;
+  font-size: 30px;
   line-height: 1;
-  font-weight: 800;
+  font-weight: 600;
 }
 .benefits .extra {
   font-size: 18px;
