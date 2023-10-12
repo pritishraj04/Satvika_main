@@ -163,17 +163,26 @@
 }
 .read-btn2{
     cursor: pointer;
-    margin-top: 0.2em;
+    margin-top: 0.1em;
 }
 .read-btn3{
     cursor: pointer;
-    margin-top: 0.5em;
+    margin-top: 0.6em;
+    width: 30px;
+    height: 30px;
 }
 
 @media screen and (max-width:770px) {
-    .read-btn2 img{
-        width: 55px;
-        height: 45px;
+    .buttonsetparent{
+        width: 75%;
+        margin: auto 0;
+        margin-left: 1em;
+    }
+    .read-btn3{
+        cursor: pointer;
+        
+        width: 30px;
+        height: 30px;
     }
 }
 
