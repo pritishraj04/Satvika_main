@@ -103,7 +103,7 @@
 
 
 .post-content{
-    padding: 1em;
+    padding: 2em;
 }
 .post-content-top{
     
@@ -160,6 +160,7 @@
     border-radius: 100px;
     background: #00a7ea;
     margin-bottom: 40px;
+    margin-left: 1em;
 }
 .read-btn2{
     cursor: pointer;
@@ -180,7 +181,7 @@
     }
     .read-btn3{
         cursor: pointer;
-        
+        margin-top: 0.4;
         width: 30px;
         height: 30px;
     }
