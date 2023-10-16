@@ -932,7 +932,7 @@ button[type="submit"] {
 }
 .navbar .container .menu ul li a:hover {
   text-decoration: none;
-  color: var(--clr-accent-300);
+  color: #9dcef5;
   border-top: 1px solid var(--clr-accent-300);
 }
 
@@ -3378,9 +3378,7 @@ button[type="submit"] {
   .footer-bar .inner figure img {
     height: 50px;
   }
-  .footer {
-    padding-top: 150px;
-  }
+  
   .footer .select-box {
     margin-bottom: 80px;
   }
@@ -6985,7 +6983,7 @@ input[type="time"]:valid:before {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 80px;
+  padding-top: 3em;
   padding-bottom: 20px;
   background: var(--clr-text-400);
   padding-left: 1em;
@@ -7871,4 +7869,41 @@ font-size: 13.5px;
     font-size: 18px;
   }
   
+}
+
+ .navbarbakchodi{
+  
+  margin: 0 auto;
+  font-size: 12px;
+  color: gray;
+  float: left;
+  
+}
+.bakparent{
+  width: 84%;
+  margin: 0 auto;
+  margin-bottom: 5em;
+}
+.linksss:hover:after {
+  width: 100%;
+}
+.linksss:after{
+   display: block;
+    content: "";
+    width: 60px;
+    height: 2px;
+    background: var(--clr-text-400);
+    
+    left: 0;
+    bottom: 0;
+    transition: 0.25s ease-in-out;
+
+}
+.buttonfather{
+  width: 35%;
+}
+@media screen and (max-width:767px) {
+  .buttonfather{
+    width: 55%;
+  }
 }
