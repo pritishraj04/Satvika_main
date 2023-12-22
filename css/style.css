@@ -73,7 +73,7 @@ theme.
 body {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+
   color: var(--clr-text-400);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -992,11 +992,11 @@ button[type="submit"] {
   position: relative;
   z-index: 9;
   padding-left: 100px;
+  top: 250px
 }
 .slider .slider-container .swiper-slide .container h1 {
  
   color: #fff;
-  font-family: Monument;
     color: #fff;
     font-size: 50px;
   margin-bottom: 20px;
@@ -1212,13 +1212,14 @@ button[type="submit"] {
 /* PAGE HEADER */
 .page-header {
   width: 100%;
-  min-height: 480px;
+  background-image: url("../images/navbg.svg");
+  
   display: flex;
   flex-wrap: wrap;
-  padding-top: 200px;
+  padding-top: 170px;
   background-color: var(--clr-text-400);
   position: relative;
-  margin-bottom: 30px;
+
 }
 .page-header:after {
   content: "";
@@ -2198,7 +2199,7 @@ button[type="submit"] {
 }
 .about-content h2 {
   font-size: 4vw;
-  font-family:  "Monument";
+  font-family: "Playfair Display", serif;
   margin-bottom: 20px;
 }
 
@@ -7654,21 +7655,21 @@ input[type="time"]:valid:before {
   right: 25px;
   border: none;
   bottom: 120px;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   float: left;
   text-align: center;
   line-height: 42px;
   font-size: 13px;
   color: #fff;
   z-index: 999;
-  background: rgb(86, 86, 86);
+  background-color: transparent;
   border-radius: 50%;
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 .cta-btn:hover {
   color: var(--clr-text-400);
-  background: var(--clr-accent-300);
+  
 }
 
 @keyframes close {
@@ -7874,7 +7875,7 @@ font-size: 13.5px;
 }
 
  .navbarbakchodi{
-  
+  max-width: 1187.500px;
   margin: 0 auto;
   font-size: 12px;
   color: gray;
@@ -7885,6 +7886,7 @@ font-size: 13.5px;
   width: 84%;
   margin: 0 auto;
   margin-bottom: 5em;
+  max-width: 1180px;
 }
 .linksss:hover:after {
   width: 100%;
