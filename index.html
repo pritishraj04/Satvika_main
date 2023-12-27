@@ -78,7 +78,8 @@
     <link rel="stylesheet" href="css/animate.min.css" />
     <link rel="stylesheet" href="css/fancybox.min.css" />
     <link rel="stylesheet" href="css/odometer.min.css" />
-    <link rel="stylesheet" href="css/swiper.min.css" />
+    <!-- <link rel="stylesheet" href="css/swiper.min.css" /> -->
+    <link rel="stylesheet" href="css/splide.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/customModals.css" />
@@ -216,7 +217,7 @@
           <!-- end hamburger -->
         </div>
         <!-- end upper-side -->
-        <nav class="navbar">
+        <nav class="navbar nav-blur">
           <div class="container">
             <div class="upper-side">
               <div class="logo">
@@ -293,103 +294,41 @@
     </nav>
     <!-- end navbar -->
     <!-- end navbar -->
-    <header class="slider">
-      <div class="slider-container">
-        <div class="inner-elements">
-          <div class="container">
-            <div class="pagination swiper-pagination-fraction">
-              <span class="swiper-pagination-current">4</span> /
-              <span class="swiper-pagination-total">4</span>
-            </div>
-            <!-- end pagination -->
 
-            <!-- end social-media -->
-          </div>
-          <!-- end container -->
-        </div>
-        <div class="swiper-wrapper">
-          <div
-            class="swiper-slide"
-            data-background="images/slider1.jpg"
-            data-stellar-background-ratio="1.15"
-          >
-            <div class="container">
-              <h1><span>Satvika</span> HEIGHTS •</h1>
-              <h2>experience new heights of urban living</h2>
+    <section class="splide" aria-label="Splide Basic HTML Example">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <div class="splide__element" data-background="images/slider1.jpg">
               <a href="#" class="brochurebutton"
                 >GET BROCHURE<i class="fas fa-caret-right"></i
               ></a>
             </div>
-            <!-- end container -->
-          </div>
-          <!-- end swiper-slide -->
-          <div
-            class="swiper-slide"
-            data-background="images/slider2.jpg"
-            data-stellar-background-ratio="1.15"
-          >
-            <div class="container">
-              <h1><span>Satvika</span> HEIGHTS •</h1>
-              <h2>experience new heights of urban living</h2>
+          </li>
+          <li class="splide__slide">
+            <div class="splide__element" data-background="images/slider2.jpg">
               <a href="#" class="brochurebutton"
                 >GET BROCHURE<i class="fas fa-caret-right"></i
               ></a>
             </div>
-            <!-- end container -->
-          </div>
-          <!-- end swiper-slide -->
-          <div
-            class="swiper-slide"
-            data-background="images/slider3.jpg"
-            data-stellar-background-ratio="1.15"
-          >
-            <div class="container">
-              <h1><span>Satvika</span> HEIGHTS •</h1>
-              <h2>experience new heights of urban living</h2>
+          </li>
+          <li class="splide__slide">
+            <div class="splide__element" data-background="images/slider3.jpg">
               <a href="#" class="brochurebutton"
                 >GET BROCHURE<i class="fas fa-caret-right"></i
               ></a>
             </div>
-            <!-- end container -->
-          </div>
-          <!-- end swiper-slide -->
-          <div
-            class="swiper-slide"
-            data-background="images/slider4.jpg"
-            data-stellar-background-ratio="1.15"
-          >
-            <div class="container">
-              <h1><span>Satvika</span> HEIGHTS •</h1>
-              <h2>experience new heights of urban living</h2>
+          </li>
+          <li class="splide__slide">
+            <div class="splide__element" data-background="images/slider4.jpg">
               <a href="#" class="brochurebutton"
                 >GET BROCHURE<i class="fas fa-caret-right"></i
               ></a>
             </div>
-            <!-- end container -->
-          </div>
-          <!-- end swiper-slide -->
-          <!-- end swiper-slide -->
-          <div data-stellar-background-ratio="1.15">
-            <!-- end container -->
-          </div>
-          <!-- end swiper-slide -->
-        </div>
-        <!-- Add Pagination -->
-        <div class="inner-elements">
-          <div class="container">
-            <div class="pagination"></div>
-            <div class="button-prev">PREV</div>
-            <!-- end button-prev -->
-            <div class="button-next">NEXT</div>
-            <!-- end button-next -->
-            <!-- end social-media -->
-          </div>
-          <!-- end container -->
-        </div>
-        <!-- end inner-elements -->
+          </li>
+        </ul>
       </div>
-      <!-- end slider-container -->
-    </header>
+    </section>
     <!-- Start of Page start -->
     <div class="startofpage">
       <div>
@@ -1450,7 +1389,8 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/swiper.min.js"></script>
+    <!-- <script src="js/swiper.min.js"></script> -->
+    <script src="js/splide.min.js"></script>
     <script src="js/fancybox.min.js"></script>
     <script src="js/odometer.min.js"></script>
     <script src="js/wow.min.js"></script>
