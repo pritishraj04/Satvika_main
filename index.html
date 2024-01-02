@@ -295,7 +295,15 @@
     <!-- end navbar -->
     <!-- end navbar -->
 
-    <section class="splide" aria-label="Splide Basic HTML Example">
+    <section
+      class="splide"
+      aria-label="Hero Carousel"
+      data-splide='{"type":"loop","autoplay":"true","pauseOnHover": "false","interval":5000}'
+    >
+      <div class="splide__arrows">
+        <button class="splide__arrow splide__arrow--prev">Prev</button>
+        <button class="splide__arrow splide__arrow--next">Next</button>
+      </div>
       <div class="splide__track">
         <ul class="splide__list">
           <li class="splide__slide">
