@@ -2244,6 +2244,11 @@ button[type="submit"] {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
 }
+@media screen and (max-width: 990px) {
+  .splide__arrow {
+    right: 2rem;
+  }
+}
 .splide__arrow--prev {
   left: unset;
   margin-top: -60px;
