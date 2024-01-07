@@ -7967,3 +7967,127 @@ input[type="time"]:valid:before {
     width: 55%;
   }
 }
+
+/* STYLE2 CSS */
+
+.startofpage {
+  background-color: #f9f9f9;
+
+  margin: 0 auto;
+  margin-top: 0.5em;
+  padding: 3em;
+  margin-bottom: 1em;
+}
+.startofpage div {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+.heading {
+  font-size: 30px;
+  font-family: serif;
+  padding-bottom: 0.2em;
+  color: rgb(22, 22, 117);
+}
+
+/* about sativika Rus_ytpage */
+
+.youtube-divgrand {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: #f9f9f9;
+}
+.writtenpartyt {
+}
+.youtube-divparent {
+  display: flex;
+  gap: 3em;
+  align-items: center;
+  margin: 0 auto;
+}
+.HeadYT {
+  margin-bottom: 0px;
+  color: #eaae5a;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+}
+.halfunderlinediv {
+  width: 150px;
+  background-color: #eaae5a;
+  margin: 0px;
+  height: 3px;
+  border-radius: 10px;
+  margin-bottom: 1em;
+}
+.subheadyt {
+  margin-bottom: 1em;
+}
+.video img {
+  width: 700px;
+  height: 400px;
+}
+@media screen and (max-width: 600px) {
+  .video img {
+    width: 800px;
+  }
+  .youtube-divparent {
+    flex-direction: column;
+  }
+  .youtube-divgrand {
+    width: 90%;
+    padding-bottom: 2em;
+    text-align: center;
+  }
+  .writtenpartyt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/*end of about sativika Rus_ytpage */
+.d1 {
+  display: flex;
+  justify-content: space-between;
+}
+.table {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 2em;
+  margin-top: 4em;
+}
+.Privacy_grand {
+  font-size: 14px;
+}
+.Privacy_parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+.privacystart {
+  width: 70%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 4em;
+}
+.underline {
+  width: 170px;
+  background-color: #eaae5a;
+  margin: 0px;
+  height: 3px;
+  border-radius: 10px;
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width: 600px) {
+  .privacystart {
+    width: 90%;
+  }
+}
