@@ -1235,6 +1235,11 @@ button[type="submit"] {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="var(--clr-text-400)",endColorstr="var(--clr-accent-400)",GradientType=1);
   opacity: 0.65;
 }
+@media screen and (max-width: 990px) {
+  .page-header {
+    padding-top: 70px;
+  }
+}
 .page-header .container {
   position: relative;
   z-index: 2;
