@@ -83,7 +83,7 @@ theme.
 body {
   margin: 0;
   padding: 0;
-
+  font-family: "Poppins", sans-serif;
   color: var(--clr-text-400);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -7910,7 +7910,7 @@ input[type="time"]:valid:before {
 
     display: flex;
     flex-wrap: wrap;
-    padding-top: 200px;
+    /* padding-top: 200px; */
     background-color: var(--clr-text-400);
     position: relative;
     margin-bottom: 30px;
