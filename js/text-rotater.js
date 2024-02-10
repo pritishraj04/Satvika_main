@@ -1,5 +1,5 @@
 class RotateText {
-    constructor(element, delay = 1200, transition = 500, transition_class = null) {
+    constructor(element, delay = 800, transition = 500, transition_class = null) {
         if (!element ||
             !element.dataset.text) return;
 
