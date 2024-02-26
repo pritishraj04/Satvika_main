@@ -2192,6 +2192,7 @@ button[type="submit"] {
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* hero shadow */
 .splide__element:after {
   content: "";
   width: 100%;
