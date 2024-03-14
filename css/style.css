@@ -2193,6 +2193,34 @@ button[type="submit"] {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.splide_el1 {
+  background-image: url("../images/slider1.jpg");
+}
+.splide_el2 {
+  background-image: url("../images/slider2.jpg");
+}
+.splide_el3 {
+  background-image: url("../images/slider3.jpg");
+}
+.splide_el4 {
+  background-image: url("../images/slider4.jpg");
+}
+
+@media screen and (max-width: 760px) {
+  .splide_el1 {
+    background-image: url("../images/mobslider1.jpg");
+  }
+  .splide_el2 {
+    background-image: url("../images/mobslider2.jpg");
+  }
+  .splide_el3 {
+    background-image: url("../images/mobslider3.jpg");
+  }
+  .splide_el4 {
+    background-image: url("../images/mobslider4.jpg");
+  }
+}
+
 .splide__element:after {
   content: "";
   width: 100%;
