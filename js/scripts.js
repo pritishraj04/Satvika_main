@@ -188,7 +188,7 @@
   wow.init();
 
   // PRELOADER
-  $(window).load(function () {
+  $(window).ready(function () {
     $("body").addClass("page-loaded");
   });
 })(jQuery);
