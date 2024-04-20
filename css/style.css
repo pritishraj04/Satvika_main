@@ -1937,6 +1937,7 @@ button[type="submit"] {
   display: flex;
   flex-wrap: wrap;
   padding: 150px 0;
+  margin-top: 150px;
   background: var(--clr-text-400);
   color: #fff;
   position: relative;
@@ -7960,7 +7961,7 @@ input[type="time"]:valid:before {
   }
 }
 
-.navbarbakchodi {
+.navbar-d {
   max-width: 1187.5px;
   margin: 0 auto;
   font-size: 12px;
