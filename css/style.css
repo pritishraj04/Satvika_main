@@ -8157,7 +8157,7 @@ input[type="time"]:valid:before {
 /* New Styles */
 @media screen and (max-width: 600px) {
 .about-hero-image{
-  padding-top: 7em;
+  padding-top: 8em;
   padding-bottom: 3em;
 }
 .dlfDoppelgainger .inside .firstpara{
@@ -8166,6 +8166,10 @@ input[type="time"]:valid:before {
   
   line-height: 27px!important;
   font-weight: 500!important;
+}
+.dlfDoppelgainger .inside .secondpara{
+  font-size: 13px!important;
+  line-height: 18.5px!important;
 }
 }
 
