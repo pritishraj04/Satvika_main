@@ -8034,7 +8034,7 @@ input[type="time"]:valid:before {
 
 .startofpage {
   background-color: #f9f9f9;
-
+  width: 100%;
   margin: 0 auto;
   margin-top: 0.5em;
   padding: 3em;
@@ -8042,7 +8042,7 @@ input[type="time"]:valid:before {
 }
 .startofpage div {
   margin: 0 auto;
-  width: 90%;
+  
   text-align: center;
 }
 .heading {
@@ -8152,4 +8152,66 @@ input[type="time"]:valid:before {
   .privacystart {
     width: 90%;
   }
+}
+
+/* New Styles */
+@media screen and (max-width: 600px) {
+.about-hero-image{
+  padding-top: 7em;
+  padding-bottom: 3em;
+}
+.dlfDoppelgainger .inside .firstpara{
+  font-family: serif;
+  font-size: 25px!important;
+  
+  line-height: 27px!important;
+  font-weight: 500!important;
+}
+}
+
+.dlfDoppelgainger{
+  max-width: 1280px;
+  margin: 0 auto;
+  
+}
+.dlfDoppelgainger .inside{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+.dlfDoppelgainger .inside .firstpara{
+  font-family: serif;
+  font-size: 35px;
+  
+  line-height: 38px;
+  font-weight: 500;
+}
+
+.dlfDoppelgainger .inside .secondpara{
+  border-top-color: rgb(225, 225, 225);
+border-top-style: solid;
+border-top-width: 2px;
+box-sizing: border-box;
+color: rgb(33, 37, 41);
+display: block;
+font-family: HelveticaNeue-Light;
+font-size: 16px;
+font-weight: 400;
+height: 83px;
+letter-spacing: normal;
+line-height: 22.5px;
+margin-block-end: 0px;
+margin-block-start: 24px;
+margin-bottom: 0px;
+margin-inline-end: 0px;
+margin-inline-start: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 14px;
+max-width: 1270px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 15px;
 }
