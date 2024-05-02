@@ -525,7 +525,7 @@ button[type="submit"] {
   position: fixed;
   right: 0;
   top: 0;
-  z-index: 12;
+  z-index: 9999;
   background: #e1f3ff;
   transition: all 0.5s ease;
   transition-duration: 400ms;
