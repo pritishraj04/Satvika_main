@@ -192,3 +192,25 @@
     $("body").addClass("page-loaded");
   });
 })(jQuery);
+//modal
+var modal = document.getElementById("myModal");
+
+// Get the close button
+var closeBtn = document.getElementsByClassName("close")[0];
+
+// Open the modal on page load
+window.onload = function() {
+    modal.style.display = "block";
+};
+
+// Close the modal when the close button is clicked
+closeBtn.onclick = function() {
+    modal.style.display = "none";
+};
+
+// Close the modal when clicking outside of it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+};
